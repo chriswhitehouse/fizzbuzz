@@ -20,7 +20,16 @@ describe 'fizzbuzz' do
     it 'returns "fizzbuzz" when passed 15' do
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end
-    #it 'returns number when passed number not 3 or 5' do
-    #    expect(fizzbuzz(4)).to eq 4
-    #end
+
+    it 'returns 1 when passed 1' do
+        expect(fizzbuzz(1)).to eq 1
+    end
+
+    it 'returns 11 when passed 11' do
+        expect(fizzbuzz(11)).to eq 11
+    end
+
+    it 'returns 17 when passed 17' do
+        expect(fizzbuzz(17)).to eq 17
+    end
 end
