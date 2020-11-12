@@ -32,4 +32,8 @@ describe 'fizzbuzz' do
     it 'returns 17 when passed 17' do
         expect(fizzbuzz(17)).to eq 17
     end
+
+    it 'returns range including correct fizz, buzz and fizzbuzz numbers' do
+        expect(fizzbuzz(10..15).each {number})).to eq 'buzz', 11, 'fizz', 13, 14, 'fizzbuzz'
+    end
 end
